@@ -12,7 +12,7 @@ const Graph = () => {
 	let day = weekday[new Date().getDay()]
 
 	return (
-		<div className='flex items-end justify-between gap-x-5 mt-9'>
+		<div className='flex items-end justify-between gap-x-5 mt-9 h-60'>
 			{data.map((item) => (
 				<GraphBar
 					item={item}
