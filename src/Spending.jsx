@@ -1,4 +1,5 @@
 import Summary from './Summary'
+import Graph from './Graph'
 
 const Spending = () => {
 	return (
@@ -6,7 +7,7 @@ const Spending = () => {
 			<h1 className='text-3xl font-bold text-dark-brown'>
 				Spending - Last 7 days
 			</h1>
-			{/* Graph component */}
+			<Graph />
 			<Summary />
 		</div>
 	)
