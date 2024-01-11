@@ -11,15 +11,15 @@ const GraphBar = ({ item, heightPx, today }) => {
 	let barClass
 	if (today) {
 		if (hover) {
-			barClass = 'bg-[#bbdade] w-12 rounded-md mx-auto'
+			barClass = 'bg-[#bbdade] lg:w-12 w-8 sm:w-10 rounded-md mx-auto'
 		} else {
-			barClass = 'bg-cyan w-12 rounded-md mx-auto'
+			barClass = 'bg-cyan lg:w-12 w-8 sm:w-10 rounded-md mx-auto'
 		}
 	} else {
 		if (hover) {
-			barClass = 'bg-[#f2a08f] w-12 rounded-md mx-auto'
+			barClass = 'bg-[#f2a08f] lg:w-12 w-8 sm:w-10 rounded-md mx-auto'
 		} else {
-			barClass = 'bg-soft-red w-12 rounded-md mx-auto'
+			barClass = 'bg-soft-red lg:w-12 w-8 sm:w-10 rounded-md mx-auto'
 		}
 	}
 

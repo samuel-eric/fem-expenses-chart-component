@@ -1,9 +1,9 @@
 const Balance = () => {
 	return (
-		<div className='bg-soft-red flex items-center p-9 w-2/5 max-w-3xl min-w-96 rounded-3xl'>
+		<div className='bg-soft-red flex items-center p-5 box-border w-11/12 rounded-lg max-w-sm sm:p-7 sm:rounded-2xl md:max-w-md lg:w-2/5 lg:max-w-3xl lg:p-9 lg:rounded-3xl'>
 			<div className='mr-auto'>
 				<p className='text-pale-orange'>My balance</p>
-				<h3 className='text-pale-orange text-3xl font-bold'>$921.48</h3>
+				<h3 className='text-pale-orange font-bold text-3xl'>$921.48</h3>
 			</div>
 			<div>
 				<svg
