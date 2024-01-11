@@ -1,8 +1,10 @@
+import Balance from './Balance'
+
 function App() {
 	return (
-		<>
-			<h1 className='font-body'>Hello World</h1>
-		</>
+		<main className='bg-cream h-screen flex justify-center items-center text-lg'>
+			<Balance />
+		</main>
 	)
 }
 
